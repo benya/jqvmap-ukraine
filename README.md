@@ -1,5 +1,7 @@
 # Интерактивная карта Украины в формате SVG.
 
+v 1.0
+
 <a href="http://benya.com.ua/github/jqvmap-ukraine/" title="DEMO"><img src="http://benya.com.ua/github/jqvmap-ukraine/jqvmap-ukraine.png" alt="DEMO"></a>
 
 Карта доступна на 2-х языках. Русский и Украинский.
