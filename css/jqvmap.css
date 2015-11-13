@@ -1,0 +1,32 @@
+/*
+
+11.2015,
+Alexander Bendyuzhko,
+bendyuzhko@gmail.com,
+https://github.com/benya
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#ua {
+	max-width: 1200px;
+	min-width: 768px;
+	height: 600px;
+	margin: auto;
+}
+
+.jqvmap-label {
+	background: black;
+	color: white;
+	border-radius: 6px;
+	padding: 6px;
+	position: absolute;
+}
+
+.jqvmap-zoomin {display: none;}
+
+.jqvmap-zoomout {display: none;}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!--
+
+11.2015,
+Alexander Bendyuzhko,
+bendyuzhko@gmail.com,
+https://github.com/benya
+
+-->
+
+<html lang="ru">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Карта Украины</title>
+
+	<link href="./css/jqvmap.css" rel="stylesheet">
+
+	<script src="https://yastatic.net/jquery/2.1.4/jquery.min.js"></script>
+	<script src="./js/jqvmap.js"></script>
+	<script src="./js/ukraine.js"></script>
+
+	<script>
+		jQuery(document).ready(function() {
+
+			jQuery('#ua').vectorMap(
+
+			{
+
+				map: 'ukraine',
+				backgroundColor: 'white',
+				borderColor: '#FF9900',
+				borderOpacity: 0.60,
+				borderWidth: 2,
+				color: '#1076C8',
+				hoverColor: '#0A4C82',
+				selectedColor: '#FF9900',
+
+			}
+
+			);
+
+		});
+	</script>
+
+
+</head>
+
+<body>
+
+	<div id="ua"></div>
+
+</body>
+
+</html>
