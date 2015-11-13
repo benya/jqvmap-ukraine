@@ -1,5 +1,6 @@
 /*
 
+jqvmap-ukraine-v1,
 11.2015,
 Alexander Bendyuzhko,
 bendyuzhko@gmail.com,
